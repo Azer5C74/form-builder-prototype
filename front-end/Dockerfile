@@ -11,7 +11,7 @@ COPY . .
 RUN npm install
 
 # Expose port 
-EXPOSE 8080
+EXPOSE 5173
 
 # Start the Vue.js production server
 CMD ["npm", "run", "start"]
